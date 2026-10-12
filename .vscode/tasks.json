@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "DogDoor: OTA Upload",
+            "type": "process",
+            "command": "${env:USERPROFILE}/.platformio/penv/Scripts/platformio.exe",
+            "args": ["run", "--target", "upload", "--environment", "heltec_v2_ota", "--upload-port", "192.168.1.251"],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": []
+        }
+    ]
+}

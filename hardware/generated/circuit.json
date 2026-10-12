@@ -1,0 +1,1080 @@
+[
+  {
+    "reference": "J1",
+    "value": "Heltec V2 LEFT",
+    "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x18_P2.54mm_Vertical",
+    "position": [
+      60,
+      51
+    ],
+    "pins": {
+      "1": "GND",
+      "2": "+3V3",
+      "3": null,
+      "4": null,
+      "5": "LIMIT_OPEN",
+      "6": "LIMIT_CLOSE",
+      "7": null,
+      "8": "ALT_CLOSE_27",
+      "9": "CLOSE",
+      "10": "OPEN",
+      "11": null,
+      "12": null,
+      "13": "FAULT",
+      "14": "CURRENT_A",
+      "15": null,
+      "16": null,
+      "17": null,
+      "18": "CURRENT_B"
+    },
+    "names": {
+      "1": "GND",
+      "2": "3V3",
+      "3": "Vext",
+      "4": "RST",
+      "5": "13",
+      "6": "12",
+      "7": "14",
+      "8": "27",
+      "9": "26",
+      "10": "25",
+      "11": "33",
+      "12": "32",
+      "13": "35",
+      "14": "34",
+      "15": "39",
+      "16": "38",
+      "17": "37",
+      "18": "36"
+    },
+    "assembly": "HAND",
+    "mpn": "REVIEW_REQUIRED",
+    "rotation": 0,
+    "fitted": true
+  },
+  {
+    "reference": "J2",
+    "value": "Heltec V2 RIGHT",
+    "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x18_P2.54mm_Vertical",
+    "position": [
+      82.86,
+      51
+    ],
+    "pins": {
+      "1": "GND",
+      "2": "HELTEC_5V",
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": "PIR_OUT",
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": "PIR_IN",
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": "ALT_PIR_22",
+      "18": null
+    },
+    "names": {
+      "1": "GND",
+      "2": "5V",
+      "3": "3V3",
+      "4": "Vext",
+      "5": "TX",
+      "6": "RX",
+      "7": "15",
+      "8": "2",
+      "9": "0",
+      "10": "4",
+      "11": "16",
+      "12": "17",
+      "13": "5",
+      "14": "18",
+      "15": "23",
+      "16": "19",
+      "17": "22",
+      "18": "21"
+    },
+    "assembly": "HAND",
+    "mpn": "REVIEW_REQUIRED",
+    "rotation": 0,
+    "fitted": true
+  },
+  {
+    "reference": "J3",
+    "value": "5V 3A CENTER POSITIVE",
+    "footprint": "Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal",
+    "position": [
+      110,
+      48
+    ],
+    "pins": {
+      "1": "INPUT_5V",
+      "2": "GND",
+      "3": null
+    },
+    "names": {
+      "1": "CENTER +",
+      "2": "SLEEVE -",
+      "3": "SWITCH NC"
+    },
+    "assembly": "HAND",
+    "mpn": "PJ-102AH",
+    "rotation": 0,
+    "fitted": true
+  },
+  {
+    "reference": "F1",
+    "value": "3A fuse - inrush review",
+    "footprint": "Fuse:Fuse_1206_3216Metric",
+    "position": [
+      121,
+      54
+    ],
+    "pins": {
+      "1": "INPUT_5V",
+      "2": "VM"
+    },
+    "names": {},
+    "assembly": "SMD",
+    "mpn": "0467003.NR",
+    "rotation": 0,
+    "fitted": true
+  },
+  {
+    "reference": "D1",
+    "value": "SS34 controller isolation",
+    "footprint": "Diode_SMD:D_SMA",
+    "position": [
+      101,
+      63
+    ],
+    "pins": {
+      "1": "LOGIC_DIODE",
+      "2": "VM"
+    },
+    "names": {
+      "1": "K",
+      "2": "A"
+    },
+    "assembly": "SMD",
+    "mpn": "SS34",
+    "rotation": 0,
+    "fitted": true
+  },
+  {
+    "reference": "FB1",
+    "value": "Ferrite >=1A low DCR",
+    "footprint": "Inductor_SMD:L_1206_3216Metric",
+    "position": [
+      101,
+      69
+    ],
+    "pins": {
+      "1": "LOGIC_DIODE",
+      "2": "LOGIC_5V"
+    },
+    "names": {},
+    "assembly": "SMD",
+    "mpn": "REVIEW_REQUIRED",
+    "rotation": 0,
+    "fitted": true
+  },
+  {
+    "reference": "JP1",
+    "value": "REMOVE FOR USB POWER",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+    "position": [
+      98,
+      76
+    ],
+    "pins": {
+      "1": "LOGIC_5V",
+      "2": "HELTEC_5V"
+    },
+    "names": {},
+    "assembly": "HAND",
+    "mpn": "REVIEW_REQUIRED",
+    "rotation": 0,
+    "fitted": true
+  },
+  {
+    "reference": "J4",
+    "value": "POWER ALT + GND",
+    "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+    "position": [
+      111,
+      129
+    ],
+    "pins": {
+      "1": "INPUT_5V",
+      "2": "GND"
+    },
+    "names": {},
+    "assembly": "HAND",
+    "mpn": "REVIEW_REQUIRED",
+    "rotation": 0,
+    "fitted": true
+  },
+  {
+    "reference": "C1",
+    "value": "470uF 10V low ESR",
+    "footprint": "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm",
+    "position": [
+      119,
+      62
+    ],
+    "pins": {
+      "1": "VM",
+      "2": "GND"
+    },
+    "names": {
+      "1": "+",
+      "2": "-"
+    },
+    "assembly": "HAND",
+    "mpn": "REVIEW_REQUIRED",
+    "rotation": 0,
+    "fitted": true
+  },
+  {
+    "reference": "C2",
+    "value": "470uF 10V low ESR",
+    "footprint": "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm",
+    "position": [
+      100,
+      85
+    ],
+    "pins": {
+      "1": "LOGIC_5V",
+      "2": "GND"
+    },
+    "names": {
+      "1": "+",
+      "2": "-"
+    },
+    "assembly": "HAND",
+    "mpn": "REVIEW_REQUIRED",
+    "rotation": 0,
+    "fitted": true
+  },
+  {
+    "reference": "C3",
+    "value": "100nF 25V X7R",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "position": [
+      108,
+      90
+    ],
+    "pins": {
+      "1": "LOGIC_5V",
+      "2": "GND"
+    },
+    "names": {},
+    "assembly": "SMD",
+    "mpn": "REVIEW_REQUIRED",
+    "rotation": 0,
+    "fitted": true
+  },
+  {
+    "reference": "R1",
+    "value": "10k 1%",
+    "footprint": "Resistor_SMD:R_0805_2012Metric",
+    "position": [
+      108,
+      98
+    ],
+    "pins": {
+      "1": "+3V3",
+      "2": "VREF"
+    },
+    "names": {},
+    "assembly": "SMD",
+    "mpn": "REVIEW_REQUIRED",
+    "rotation": 0,
+    "fitted": true
+  },
+  {
+    "reference": "R2",
+    "value": "10k 1%",
+    "footprint": "Resistor_SMD:R_0805_2012Metric",
+    "position": [
+      108,
+      102
+    ],
+    "pins": {
+      "1": "VREF",
+      "2": "GND"
+    },
+    "names": {},
+    "assembly": "SMD",
+    "mpn": "REVIEW_REQUIRED",
+    "rotation": 0,
+    "fitted": true
+  },
+  {
+    "reference": "C4",
+    "value": "100nF 25V X7R",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "position": [
+      108,
+      106
+    ],
+    "pins": {
+      "1": "VREF",
+      "2": "GND"
+    },
+    "names": {},
+    "assembly": "SMD",
+    "mpn": "REVIEW_REQUIRED",
+    "rotation": 0,
+    "fitted": true
+  },
+  {
+    "reference": "J5",
+    "value": "NC STOP LOOP - OPEN DISABLES BOTH",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+    "position": [
+      98,
+      113
+    ],
+    "pins": {
+      "1": "+3V3",
+      "2": "ENABLE"
+    },
+    "names": {},
+    "assembly": "HAND",
+    "mpn": "REVIEW_REQUIRED",
+    "rotation": 0,
+    "fitted": true
+  },
+  {
+    "reference": "R3",
+    "value": "100k",
+    "footprint": "Resistor_SMD:R_0805_2012Metric",
+    "position": [
+      104,
+      114
+    ],
+    "pins": {
+      "1": "ENABLE",
+      "2": "GND"
+    },
+    "names": {},
+    "assembly": "SMD",
+    "mpn": "REVIEW_REQUIRED",
+    "rotation": 0,
+    "fitted": true
+  },
+  {
+    "reference": "R4",
+    "value": "47k",
+    "footprint": "Resistor_SMD:R_0805_2012Metric",
+    "position": [
+      92,
+      98
+    ],
+    "pins": {
+      "1": "OPEN",
+      "2": "GND"
+    },
+    "names": {},
+    "assembly": "SMD",
+    "mpn": "REVIEW_REQUIRED",
+    "rotation": 0,
+    "fitted": true
+  },
+  {
+    "reference": "R5",
+    "value": "47k",
+    "footprint": "Resistor_SMD:R_0805_2012Metric",
+    "position": [
+      92,
+      102
+    ],
+    "pins": {
+      "1": "CLOSE",
+      "2": "GND"
+    },
+    "names": {},
+    "assembly": "SMD",
+    "mpn": "REVIEW_REQUIRED",
+    "rotation": 0,
+    "fitted": true
+  },
+  {
+    "reference": "R6",
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0805_2012Metric",
+    "position": [
+      92,
+      106
+    ],
+    "pins": {
+      "1": "+3V3",
+      "2": "FAULT"
+    },
+    "names": {},
+    "assembly": "SMD",
+    "mpn": "REVIEW_REQUIRED",
+    "rotation": 0,
+    "fitted": true
+  },
+  {
+    "reference": "U1",
+    "value": "DRV8876PWPR",
+    "footprint": "Package_SO:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.46x2.31mm_ThermalVias",
+    "position": [
+      139,
+      68
+    ],
+    "pins": {
+      "1": "OPEN",
+      "2": "CLOSE",
+      "3": "ENABLE",
+      "4": "FAULT",
+      "5": "VREF",
+      "6": "CURRENT_A",
+      "7": null,
+      "8": "MOTOR_A1",
+      "9": "GND",
+      "10": "MOTOR_A2",
+      "11": "VM",
+      "12": "VCP_A",
+      "13": "CPH_A",
+      "14": "CPL_A",
+      "15": "GND",
+      "16": "+3V3",
+      "17": "GND"
+    },
+    "names": {
+      "1": "IN1",
+      "2": "IN2",
+      "3": "nSLEEP",
+      "4": "nFAULT",
+      "5": "VREF",
+      "6": "IPROPI",
+      "7": "IMODE",
+      "8": "OUT1",
+      "9": "PGND",
+      "10": "OUT2",
+      "11": "VM",
+      "12": "VCP",
+      "13": "CPH",
+      "14": "CPL",
+      "15": "GND",
+      "16": "PMODE",
+      "17": "THERMAL PAD"
+    },
+    "assembly": "SMD",
+    "mpn": "DRV8876PWPR",
+    "rotation": 0,
+    "fitted": true
+  },
+  {
+    "reference": "C10",
+    "value": "22nF 25V X7R",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "position": [
+      146,
+      65
+    ],
+    "pins": {
+      "1": "CPH_A",
+      "2": "CPL_A"
+    },
+    "names": {},
+    "assembly": "SMD",
+    "mpn": "REVIEW_REQUIRED",
+    "rotation": 0,
+    "fitted": true
+  },
+  {
+    "reference": "C11",
+    "value": "100nF 25V X7R",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "position": [
+      146,
+      69
+    ],
+    "pins": {
+      "1": "VCP_A",
+      "2": "VM"
+    },
+    "names": {},
+    "assembly": "SMD",
+    "mpn": "REVIEW_REQUIRED",
+    "rotation": 0,
+    "fitted": true
+  },
+  {
+    "reference": "C12",
+    "value": "100nF 25V X7R",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "position": [
+      145,
+      73
+    ],
+    "pins": {
+      "1": "VM",
+      "2": "GND"
+    },
+    "names": {},
+    "assembly": "SMD",
+    "mpn": "REVIEW_REQUIRED",
+    "rotation": 0,
+    "fitted": true
+  },
+  {
+    "reference": "C13",
+    "value": "10uF 16V X7R",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "position": [
+      151,
+      73
+    ],
+    "pins": {
+      "1": "VM",
+      "2": "GND"
+    },
+    "names": {},
+    "assembly": "SMD",
+    "mpn": "REVIEW_REQUIRED",
+    "rotation": 0,
+    "fitted": true
+  },
+  {
+    "reference": "R10",
+    "value": "1.50k 1% ~1A trip",
+    "footprint": "Resistor_SMD:R_0805_2012Metric",
+    "position": [
+      131,
+      72
+    ],
+    "pins": {
+      "1": "CURRENT_A",
+      "2": "GND"
+    },
+    "names": {},
+    "assembly": "SMD",
+    "mpn": "REVIEW_REQUIRED",
+    "rotation": 0,
+    "fitted": true
+  },
+  {
+    "reference": "J6",
+    "value": "MOTOR A",
+    "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+    "position": [
+      165,
+      68
+    ],
+    "pins": {
+      "1": "MOTOR_A1",
+      "2": "MOTOR_A2"
+    },
+    "names": {},
+    "assembly": "HAND",
+    "mpn": "REVIEW_REQUIRED",
+    "rotation": 0,
+    "fitted": true
+  },
+  {
+    "reference": "U2",
+    "value": "DRV8876PWPR",
+    "footprint": "Package_SO:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.46x2.31mm_ThermalVias",
+    "position": [
+      139,
+      107
+    ],
+    "pins": {
+      "1": "OPEN",
+      "2": "CLOSE",
+      "3": "ENABLE",
+      "4": "FAULT",
+      "5": "VREF",
+      "6": "CURRENT_B",
+      "7": null,
+      "8": "MOTOR_B1",
+      "9": "GND",
+      "10": "MOTOR_B2",
+      "11": "VM",
+      "12": "VCP_B",
+      "13": "CPH_B",
+      "14": "CPL_B",
+      "15": "GND",
+      "16": "+3V3",
+      "17": "GND"
+    },
+    "names": {
+      "1": "IN1",
+      "2": "IN2",
+      "3": "nSLEEP",
+      "4": "nFAULT",
+      "5": "VREF",
+      "6": "IPROPI",
+      "7": "IMODE",
+      "8": "OUT1",
+      "9": "PGND",
+      "10": "OUT2",
+      "11": "VM",
+      "12": "VCP",
+      "13": "CPH",
+      "14": "CPL",
+      "15": "GND",
+      "16": "PMODE",
+      "17": "THERMAL PAD"
+    },
+    "assembly": "SMD",
+    "mpn": "DRV8876PWPR",
+    "rotation": 0,
+    "fitted": true
+  },
+  {
+    "reference": "C20",
+    "value": "22nF 25V X7R",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "position": [
+      146,
+      104
+    ],
+    "pins": {
+      "1": "CPH_B",
+      "2": "CPL_B"
+    },
+    "names": {},
+    "assembly": "SMD",
+    "mpn": "REVIEW_REQUIRED",
+    "rotation": 0,
+    "fitted": true
+  },
+  {
+    "reference": "C21",
+    "value": "100nF 25V X7R",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "position": [
+      146,
+      108
+    ],
+    "pins": {
+      "1": "VCP_B",
+      "2": "VM"
+    },
+    "names": {},
+    "assembly": "SMD",
+    "mpn": "REVIEW_REQUIRED",
+    "rotation": 0,
+    "fitted": true
+  },
+  {
+    "reference": "C22",
+    "value": "100nF 25V X7R",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "position": [
+      145,
+      112
+    ],
+    "pins": {
+      "1": "VM",
+      "2": "GND"
+    },
+    "names": {},
+    "assembly": "SMD",
+    "mpn": "REVIEW_REQUIRED",
+    "rotation": 0,
+    "fitted": true
+  },
+  {
+    "reference": "C23",
+    "value": "10uF 16V X7R",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "position": [
+      151,
+      112
+    ],
+    "pins": {
+      "1": "VM",
+      "2": "GND"
+    },
+    "names": {},
+    "assembly": "SMD",
+    "mpn": "REVIEW_REQUIRED",
+    "rotation": 0,
+    "fitted": true
+  },
+  {
+    "reference": "R20",
+    "value": "1.50k 1% ~1A trip",
+    "footprint": "Resistor_SMD:R_0805_2012Metric",
+    "position": [
+      131,
+      111
+    ],
+    "pins": {
+      "1": "CURRENT_B",
+      "2": "GND"
+    },
+    "names": {},
+    "assembly": "SMD",
+    "mpn": "REVIEW_REQUIRED",
+    "rotation": 0,
+    "fitted": true
+  },
+  {
+    "reference": "J7",
+    "value": "MOTOR B",
+    "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+    "position": [
+      165,
+      107
+    ],
+    "pins": {
+      "1": "MOTOR_B1",
+      "2": "MOTOR_B2"
+    },
+    "names": {},
+    "assembly": "HAND",
+    "mpn": "REVIEW_REQUIRED",
+    "rotation": 0,
+    "fitted": true
+  },
+  {
+    "reference": "J8",
+    "value": "PIR IN 5V OUT GND",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+    "position": [
+      47,
+      108
+    ],
+    "pins": {
+      "1": "LOGIC_5V",
+      "2": "PIR_RAW_1",
+      "3": "GND"
+    },
+    "names": {
+      "1": "5V",
+      "2": "OUT (3.3V ONLY)",
+      "3": "GND"
+    },
+    "assembly": "HAND",
+    "mpn": "REVIEW_REQUIRED",
+    "rotation": 0,
+    "fitted": true
+  },
+  {
+    "reference": "R21",
+    "value": "1k",
+    "footprint": "Resistor_SMD:R_0805_2012Metric",
+    "position": [
+      55,
+      110
+    ],
+    "pins": {
+      "1": "PIR_RAW_1",
+      "2": "PIR_IN"
+    },
+    "names": {},
+    "assembly": "SMD",
+    "mpn": "REVIEW_REQUIRED",
+    "rotation": 0,
+    "fitted": true
+  },
+  {
+    "reference": "R23",
+    "value": "100k",
+    "footprint": "Resistor_SMD:R_0805_2012Metric",
+    "position": [
+      60,
+      110
+    ],
+    "pins": {
+      "1": "PIR_IN",
+      "2": "GND"
+    },
+    "names": {},
+    "assembly": "SMD",
+    "mpn": "REVIEW_REQUIRED",
+    "rotation": 0,
+    "fitted": true
+  },
+  {
+    "reference": "C31",
+    "value": "100nF 25V X7R",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "position": [
+      65,
+      110
+    ],
+    "pins": {
+      "1": "PIR_IN",
+      "2": "GND"
+    },
+    "names": {},
+    "assembly": "SMD",
+    "mpn": "REVIEW_REQUIRED",
+    "rotation": 0,
+    "fitted": true
+  },
+  {
+    "reference": "J9",
+    "value": "PIR OUT 5V OUT GND",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+    "position": [
+      47,
+      119
+    ],
+    "pins": {
+      "1": "LOGIC_5V",
+      "2": "PIR_RAW_2",
+      "3": "GND"
+    },
+    "names": {
+      "1": "5V",
+      "2": "OUT (3.3V ONLY)",
+      "3": "GND"
+    },
+    "assembly": "HAND",
+    "mpn": "REVIEW_REQUIRED",
+    "rotation": 0,
+    "fitted": true
+  },
+  {
+    "reference": "R22",
+    "value": "1k",
+    "footprint": "Resistor_SMD:R_0805_2012Metric",
+    "position": [
+      55,
+      121
+    ],
+    "pins": {
+      "1": "PIR_RAW_2",
+      "2": "PIR_OUT_RAW"
+    },
+    "names": {},
+    "assembly": "SMD",
+    "mpn": "REVIEW_REQUIRED",
+    "rotation": 0,
+    "fitted": true
+  },
+  {
+    "reference": "R24",
+    "value": "100k",
+    "footprint": "Resistor_SMD:R_0805_2012Metric",
+    "position": [
+      60,
+      121
+    ],
+    "pins": {
+      "1": "PIR_OUT_RAW",
+      "2": "GND"
+    },
+    "names": {},
+    "assembly": "SMD",
+    "mpn": "REVIEW_REQUIRED",
+    "rotation": 0,
+    "fitted": true
+  },
+  {
+    "reference": "C32",
+    "value": "100nF 25V X7R",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "position": [
+      65,
+      121
+    ],
+    "pins": {
+      "1": "PIR_OUT_RAW",
+      "2": "GND"
+    },
+    "names": {},
+    "assembly": "SMD",
+    "mpn": "REVIEW_REQUIRED",
+    "rotation": 0,
+    "fitted": true
+  },
+  {
+    "reference": "J10",
+    "value": "OPEN REED SWITCH GND",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+    "position": [
+      75,
+      108
+    ],
+    "pins": {
+      "1": "REED_RAW_1",
+      "2": "GND"
+    },
+    "names": {},
+    "assembly": "HAND",
+    "mpn": "REVIEW_REQUIRED",
+    "rotation": 0,
+    "fitted": true
+  },
+  {
+    "reference": "R31",
+    "value": "1k",
+    "footprint": "Resistor_SMD:R_0805_2012Metric",
+    "position": [
+      83,
+      108
+    ],
+    "pins": {
+      "1": "REED_RAW_1",
+      "2": "LIMIT_OPEN"
+    },
+    "names": {},
+    "assembly": "SMD",
+    "mpn": "REVIEW_REQUIRED",
+    "rotation": 0,
+    "fitted": true
+  },
+  {
+    "reference": "C33",
+    "value": "100nF 25V X7R",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "position": [
+      83,
+      112
+    ],
+    "pins": {
+      "1": "LIMIT_OPEN",
+      "2": "GND"
+    },
+    "names": {},
+    "assembly": "SMD",
+    "mpn": "REVIEW_REQUIRED",
+    "rotation": 0,
+    "fitted": true
+  },
+  {
+    "reference": "J11",
+    "value": "CLOSED REED SWITCH GND",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+    "position": [
+      75,
+      120
+    ],
+    "pins": {
+      "1": "REED_RAW_2",
+      "2": "GND"
+    },
+    "names": {},
+    "assembly": "HAND",
+    "mpn": "REVIEW_REQUIRED",
+    "rotation": 0,
+    "fitted": true
+  },
+  {
+    "reference": "R32",
+    "value": "1k",
+    "footprint": "Resistor_SMD:R_0805_2012Metric",
+    "position": [
+      83,
+      120
+    ],
+    "pins": {
+      "1": "REED_RAW_2",
+      "2": "CLOSE_RAW"
+    },
+    "names": {},
+    "assembly": "SMD",
+    "mpn": "REVIEW_REQUIRED",
+    "rotation": 0,
+    "fitted": true
+  },
+  {
+    "reference": "C34",
+    "value": "100nF 25V X7R",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "position": [
+      83,
+      124
+    ],
+    "pins": {
+      "1": "CLOSE_RAW",
+      "2": "GND"
+    },
+    "names": {},
+    "assembly": "SMD",
+    "mpn": "REVIEW_REQUIRED",
+    "rotation": 0,
+    "fitted": true
+  },
+  {
+    "reference": "R40",
+    "value": "0R LEGACY GPIO2",
+    "footprint": "Resistor_SMD:R_0805_2012Metric",
+    "position": [
+      68,
+      125
+    ],
+    "pins": {
+      "1": "PIR_OUT_RAW",
+      "2": "PIR_OUT"
+    },
+    "names": {},
+    "assembly": "SMD",
+    "mpn": "REVIEW_REQUIRED",
+    "rotation": 0,
+    "fitted": true
+  },
+  {
+    "reference": "R41",
+    "value": "0R ALT GPIO22 DNP",
+    "footprint": "Resistor_SMD:R_0805_2012Metric",
+    "position": [
+      68,
+      129
+    ],
+    "pins": {
+      "1": "PIR_OUT_RAW",
+      "2": "ALT_PIR_22"
+    },
+    "names": {},
+    "assembly": "SMD",
+    "mpn": "REVIEW_REQUIRED",
+    "rotation": 0,
+    "fitted": false
+  },
+  {
+    "reference": "R42",
+    "value": "0R LEGACY GPIO12",
+    "footprint": "Resistor_SMD:R_0805_2012Metric",
+    "position": [
+      89,
+      121
+    ],
+    "pins": {
+      "1": "CLOSE_RAW",
+      "2": "LIMIT_CLOSE"
+    },
+    "names": {},
+    "assembly": "SMD",
+    "mpn": "REVIEW_REQUIRED",
+    "rotation": 0,
+    "fitted": true
+  },
+  {
+    "reference": "R43",
+    "value": "0R ALT GPIO27 DNP",
+    "footprint": "Resistor_SMD:R_0805_2012Metric",
+    "position": [
+      89,
+      125
+    ],
+    "pins": {
+      "1": "CLOSE_RAW",
+      "2": "ALT_CLOSE_27"
+    },
+    "names": {},
+    "assembly": "SMD",
+    "mpn": "REVIEW_REQUIRED",
+    "rotation": 0,
+    "fitted": false
+  }
+]
