@@ -13,6 +13,25 @@ CSVs. The schematic uses embedded pin-by-pin review symbols, so it does not
 need a downloaded symbol library. Footprints use your installed KiCad libraries.
 The board is intentionally roomy: 140 x 100 mm, two copper layers.
 
+J3 uses the bundled `BarrelJack_Horizontal.step` visual model in KiCad's 3D
+viewer, rotated 90 degrees to match the existing PJ-102AH footprint. Both the
+placed and routed boards reference it relative to the project directory; no
+installed 3D library is needed for J3. This is a generic horizontal barrel-jack
+visual approximation, not a manufacturer-certified PJ-102AH mechanical model.
+The pads, wiring, and part selection are unchanged.
+Model source: [KiCad packages3D, release 10.0.0](https://gitlab.com/kicad/libraries/kicad-packages3D/-/blob/10.0.0/Connector_BarrelJack.3dshapes/BarrelJack_Horizontal.step).
+License: [CC BY-SA 4.0 with KiCad library exception](https://www.kicad.org/libraries/license/).
+
+The bundled `Heltec_WiFi_Kit_32_V2.wrl` shows a visual-only module assembly
+across J1/J2, including both socket rows, white PCB, OLED with cyan HELTEC text,
+USB connector, and buttons. It is attached once to J1; J2's standalone socket
+model is omitted because the assembly includes it. The header spacing is
+22.86 mm with 18 pins per row at 2.54 mm pitch, USB toward pin 1 / board top.
+Socket height is assumed to be 8.5 mm; module body is approximated as
+26.06 x 50 x 1.6 mm. This is not a certified clearance or enclosure model.
+No electrical features are changed. Run `hardware/heltec_model.py` to rebuild
+the model alone; board generation rebuilds it with the selected row spacing.
+
 ## Confirmed requirements and assumptions
 
 - Heltec WiFi Kit 32 V2, two 18-pin rows, USB end toward the top of the PCB.

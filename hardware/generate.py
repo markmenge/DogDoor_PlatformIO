@@ -10,6 +10,8 @@ import sys
 import uuid
 import xml.etree.ElementTree as ET
 
+from heltec_model import write_model
+
 
 ROOT = Path(__file__).resolve().parent
 NAME = "dogdoor_review"
@@ -215,6 +217,7 @@ def schematic():
 
 
 def board(pcbnew):
+    write_model(ROW_SPACING_MM)
     pcb = pcbnew.BOARD()
     pcb.SetCopperLayerCount(2)
     nets = sorted({net for part in PARTS for net in part["pins"].values() if net})
@@ -242,6 +245,18 @@ def board(pcbnew):
         footprint = pcbnew.FootprintLoad(str(LIBRARIES / (library + ".pretty")), name)
         if footprint is None:
             raise RuntimeError("Missing footprint: " + part["footprint"])
+        if part["reference"] in {"J1", "J2"}:
+            footprint.Models().clear()
+            if part["reference"] == "J1":
+                model = pcbnew.FP_3DMODEL()
+                model.m_Filename = "${KIPRJMOD}/../Heltec_WiFi_Kit_32_V2.wrl"
+                footprint.Add3DModel(model)
+        if part["reference"] == "J3":
+            footprint.Models().clear()
+            model = pcbnew.FP_3DMODEL()
+            model.m_Filename = "${KIPRJMOD}/../BarrelJack_Horizontal.step"
+            model.m_Rotation.z = 90
+            footprint.Add3DModel(model)
         footprint.SetReference(part["reference"])
         footprint.SetFPID(pcbnew.LIB_ID(library, name))
         footprint.SetValue(part["value"])
